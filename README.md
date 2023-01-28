@@ -1,6 +1,6 @@
 # Coffee Shop simple website, React app
 
-React | Redux | Css
+React | Redux | Css | Material UI
 
 ### `npm start`
 
