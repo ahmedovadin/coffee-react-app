@@ -1,0 +1,123 @@
+.category {
+    .item-name{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .item-block{
+        background-color: rgb(255 255 255 / 20%);
+        position: absolute;
+        bottom: 4.5%;
+        width: 100%;
+        /* opacity: 50%; */
+        padding: 15px;
+        color: white;
+    }
+
+    .item-block:hover{
+        cursor: pointer;
+    }
+
+    .box{
+        position: relative;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+        margin: 10px;
+        height: 100%;
+    }
+}
+
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_flex {
+    display: flex;
+}
+
+.panel {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    background-color: #fff;
+    width: 23%;
+    height: 510px;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 30px;
+    height: 90vh;
+
+    .row {
+        transition: 0.5s;
+        padding: 0 20px;
+
+
+        img {
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            object-fit: contain;
+        }
+    }
+
+    .row:hover {
+        cursor: pointer;
+    }
+
+    span {
+        margin: 15px 20px;
+        text-transform: capitalize;
+    }
+
+    .item-name-icon {
+        margin: 0 25px;
+    }
+}
+
+.item-action {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.MuiGrid-root a{
+    display: contents;
+    box-sizing: border-box;
+}
+
+.MuiPaper-root:hover .item-action button  {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.fa {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.item-action button {
+    background: none;
+    background-color: #00000047;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 3px;
+    text-align: center;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all .4s ease-in-out;
+    width: 42px;
+}

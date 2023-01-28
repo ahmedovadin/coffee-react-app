@@ -1,0 +1,79 @@
+.banner{
+    background-image: url('../../images/coffee-backgroud.jpg');
+    // display: block;
+    width: 100%;
+    height: 1000px;
+    background-size: 100% 100%;
+}
+
+.banner-shadow{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    opacity: 50%;
+}
+
+.slogan{
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.choose-panel{
+    padding-top: 70px;
+}
+
+footer {
+    background-color: #0f3460;
+    padding: 100px 0;
+    color: #fff;
+
+
+    h1 {
+        margin-bottom: 30px;
+        color: #e94560;
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    .img {
+        background-color: #0c2a4d;
+        padding: 15px 20px;
+        border-radius: 5px;
+    }
+
+    .img i {
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+    .img span {
+        margin-top: 5px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        opacity: 0.5;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+        opacity: 0.5;
+    }
+} 
+
+.MuiGrid-root .button-white {
+    color: white;
+    border-color: white;
+}
